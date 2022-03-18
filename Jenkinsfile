@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vitokurre/MarcusDavidssonLabb21Jenkins.git'
+                git 'https://github.com/vitokurre/AlternativJenkinsVerktygMarcusDavidssonMT21.git'
             }
         }
         stage('junit build') {
